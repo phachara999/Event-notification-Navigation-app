@@ -1,0 +1,109 @@
+.event-details {
+    font-family: 'Kanit', sans-serif;
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-size: 14px;
+    padding-right: 15px;
+}
+
+.event-header {
+    background-color: #006644;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.ku-logo {
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+.event-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.event-content {
+    display: flex;
+    padding: 15px;
+}
+
+.event-image {
+    flex: 0 0 30%;
+    margin-right: 15px;
+}
+
+.poster {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.event-info {
+    flex: 0 0 70%;
+}
+
+.event-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+}
+
+.event-table th,
+.event-table td {
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+
+.event-table th {
+    width: 30%;
+    text-align: left;
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.event-table td {
+    width: 70%;
+}
+
+.details {
+    word-break: break-word;
+    max-height: 80px;
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    .event-content {
+        flex-direction: column;
+    }
+
+    .event-image,
+    .event-info {
+        flex: 0 0 100%;
+    }
+
+    .event-image {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .event-details {
+        font-size: 12px;
+    }
+
+    .event-header h2 {
+        font-size: 16px;
+    }
+
+    .event-table th,
+    .event-table td {
+        padding: 6px;
+    }
+}

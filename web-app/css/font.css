@@ -1,0 +1,9 @@
+ @font-face {
+    font-family: 'Leelawadee';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Leelawadee'), url('leelawad.woff') format('woff');
+}
+body {
+    font-family: 'Leelawadee';
+}
